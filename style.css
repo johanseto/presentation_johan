@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+}
+
+#header img {
+    width: 80px;
+}
+
+.institution {
+    font-size: 1rem;
+    color: #46494d;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.degree {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.text-years {
+    color: #bd5d38;
+}
+
+.description {
+    font-size: 0.7rem;
+}
+
+.list-skills {
+    margin: 0 0;
+}
+
+.list-skills ul li::marker {
+    color: blue;
+    font-size: 1rem;
+}
+
+.list-skills ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.list-skills li {
+    width: 110px;
+    height: 15px;
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+}
